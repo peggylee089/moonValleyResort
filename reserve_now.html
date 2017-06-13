@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Reserve Now</title>
+        <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+        <!-- CSS Stylesheet -->
+        <link rel="stylesheet" href="styles/style.css"/>
+        <link href="https://fonts.googleapis.com/css?family=Raleway:300|Roboto:900|Rubik:700|Libre+Franklin:200" rel="stylesheet">
+        <!-- JS/jQuery Script -->
+        <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.1.1.min.js"></script>
+        <script src="scripts/script.js"></script>
+    </head>
+    <body>
+        <!-- Navigation Bar -->
+        <header id="header">
+            <div id="logo">
+                <img src="images/1.home/1.header/logo.png"/>
+                <pagetitle>MOON VALLEY RESORT<trademark>&reg;</trademark></pagetitle>
+            </div>
+            <nav>
+                <div class="menuBackground">
+                    <div class="center myMenu">
+                        <ul class="dropDownMenu">
+                            <li><a href="index.html">HOME</a>
+                            <li><a href="resort_map.html">RESORT MAP</a>
+                            <li><a>ROOMS</a>
+                                <ul>
+                                    <li><a>Classical Suite</a>
+                                        <ul>
+                                            <li><a href="classical_suite_for_single.html">For Single</a></li>
+                                            <li><a href="classical_suite_for_double.html">For Double</a></li>
+                                            <li><a href="classical_suite_for_quad.html">For Quad</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="presidential_suite.html">Presidential Suite</a></li>
+                                    <li><a>Chalet</a>
+                                        <ul>
+                                            <li><a href="chalet_for_single.html">For Single</a></li>
+                                            <li><a href="chalet_for_double.html">For Double</a></li>
+                                            <li><a href="chalet_for_quad.html">For Quad</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="reserve_now.html">Reserve Now</a></li>
+                                </ul>
+                                <li><a>FACILITIES</a>
+                                        <ul>
+                                            <li><a href="hot_spring.html">Hot Spring</a></li>
+                                            <li><a href="bbq_area.html">BBQ Area</a></li>
+                                            <li><a href="buffet.html">Buffet</a></li>
+                                        </ul>
+                                    </li>
+                            <li><a href="events.html">EVENTS</a>
+                            <li><a href="nearby.html">NEARBY</a>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        
+        <section class="slider">
+            <div class="slide reservenow_slideshow_image">
+                <h2>RESERVE NOW</h2>
+            </div>
+        </section>
+        
+        <div class="textbox">
+            <h1>Personal information</h1>
+            <div id="info_set">
+                <p>First name: </p>
+                <input type="text" id="first_name"/>
+            </div>
+            <div id="info_set">
+                <p>Last name: </p>
+                <input type="text" id="last_name"/>
+            </div>
+            <div id="info_set">
+                <p>Email address: </p>
+                <input type="text" id="email_address"/>
+            </div>
+            <div id="info_set">
+                <p>Credit card number: </p>
+                <input type="text" id="passport_number"/>
+            </div>
+            <p id="notify">All fields are required.</p>
+        </div>
+        
+        <div class="textbox">
+            <h1>Room(s) to be reserved</h1>
+            <div id="set1">
+                <p>Room type: </p>
+                <select id="select1a">
+                    <option>--Select--</option>
+                    <option>Classical suite for single</option>
+                    <option>Classical suite for double</option>
+                    <option>Classical suite for quad</option>
+                    <option>Presidential suite</option>
+                    <option>Chalet for single</option>
+                    <option>Chalet for double</option>
+                    <option>Chalet for quad</option>
+                </select>
+                <p id="num">Number of rooms: </p>
+                <select id="select1b">
+                    <option>--Select--</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                </select>
+            </div>
+            <div id="set2">
+                <p>Room type: </p>
+                <select id="select2a">
+                    <option>--Select--</option>
+                    <option>Classical suite for single</option>
+                    <option>Classical suite for double</option>
+                    <option>Classical suite for quad</option>
+                    <option>Presidential suite</option>
+                    <option>Chalet for single</option>
+                    <option>Chalet for double</option>
+                    <option>Chalet for quad</option>
+                </select>
+                <p id="num">Number of rooms: </p>
+                <select id="select2b">
+                    <option>--Select--</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                </select>
+            </div>
+            <div id="set3">
+                <p>Room type: </p>
+                <select id="select3a">
+                    <option>--Select--</option>
+                    <option>Classical suite for single</option>
+                    <option>Classical suite for double</option>
+                    <option>Classical suite for quad</option>
+                    <option>Presidential suite</option>
+                    <option>Chalet for single</option>
+                    <option>Chalet for double</option>
+                    <option>Chalet for quad</option>
+                </select>
+                <p id="num">Number of rooms: </p>
+                <select id="select3b">
+                    <option>--Select--</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                </select>
+            </div>
+            <p id="notify">Online reservation only allows up to three room types. For four or more room types, please contact us at 02-12345678.</p>
+            <button id="done" onclick="calculate()">Done</button>
+        </div>
+        <div class="textbox">
+            <h1>Receipt</h1>
+            <div id="receipt"></div>
+        </div>
+    </body>
+    
+    <footer>
+        <p>© 2017 Moon Valley Resort</p>
+        <p>123 Zhongzheng Road, Taipei City, Taiwan&ensp;|&ensp;02-12345678&ensp;|&ensp;contactus@mvr.com</p>
+    </footer>
+</html>

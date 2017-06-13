@@ -1,0 +1,219 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    height: 1200px;
+}
+header {
+    color: white;
+    padding-top: 15px; 
+    font-size: 50px;
+    background-color: black;
+    z-index: 999999999;
+    width: 100%;
+    font-family: Arial Black;
+    text-align: center;
+}
+#logo img{
+    height: 120px;
+    width: auto;
+}
+trademark {
+    font-size: 20px;
+}
+pagetitle {
+    position: relative;
+    top: -35px;
+    color: white;
+}
+footer {
+    position: static;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+    color: black;
+    text-align: center;
+    font-size: 12px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    font-family: 'Raleway';
+    margin-top: 10px;
+    margin-bottom: 3px;
+}
+
+/* Navigation Bar */
+.menuBackground {
+	background-color: white;
+    color: white;
+	text-align: center;
+    width: 100%;
+    font-size: 14px;
+    font-family: 'Rubik', sans-serif;
+}
+.dropDownMenu,
+.dropDownMenu ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+    color: black;
+    background-color: white;
+}
+.dropDownMenu li {
+	position: relative;
+    width: 150px;
+}
+.dropDownMenu a {
+	padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 14px;
+    padding-right: 14px;
+	display: block;
+	text-decoration: none;
+    color: black;
+    background-color: white;
+}
+/* Level 1 Drop Down */
+.dropDownMenu > li {
+	display: inline-block;
+	vertical-align: top;
+	margin-left: -5px; /* solve the 4 pixels spacing between list-items */
+    background-color: black;
+}
+.dropDownMenu > li:first-child {
+}
+.dropDownMenu > li a:hover{
+    background-color: #FFFFCC;
+}
+/* Level 2 */
+.dropDownMenu > li > ul a {
+    color: black;
+    background-color: white;
+}
+.dropDownMenu > li > ul {
+	text-align: center;
+	display: none;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	z-index: 999999; /* if you have YouTube iframes, is good to have a bigger z-index so the video can appear above the video */
+    background-color: white;
+    color: black;
+}
+/* Level 3 */
+.dropDownMenu > li > ul > li > ul {
+	text-align: center;
+	display: none;
+	background: darkcyan;
+	position: absolute;
+	left: 100%;
+	top: 0;
+	z-index: 9999999;
+    width: 150px;
+}
+
+/* Image */
+.slider {
+	display: inline-block;
+	overflow: hidden;
+    position: relative;
+}
+.slider {
+	position: relative;
+	width: 500%; /* Don't touch this */
+	margin: 0;
+	left: 0;
+}
+.slide {
+    width: 20%; /* Don't touch this */float: left;
+	height: 400px; /* Change this if you want a bigger slideshow */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.slide h2{
+	position: relative;
+	font-size: 2.5rem;
+	color: #fff;
+	display: inline-block;
+    font-family: 'Roboto', sans-serif;
+}
+.classical_single_image{
+	background: url("/Users/peggylee/Desktop/A4. Comm Design/Coding/MoonValleyResort_peg_chel_bran/images/3.rooms/classical_single.jpg");
+	background-size: cover;
+	background-position: center center;
+}
+.classical_double_image{
+	background: url("/Users/peggylee/Desktop/A4. Comm Design/Coding/MoonValleyResort_peg_chel_bran/images/3.rooms/classical_double.jpg");
+	background-size: cover;
+	background-position: center center;
+}
+.classical_quad_image{
+	background: url("/Users/peggylee/Desktop/A4. Comm Design/Coding/MoonValleyResort_peg_chel_bran/images/3.rooms/classical_quad.jpg");
+	background-size: cover;
+	background-position: center center;
+}
+.presidential_image{
+	background: url("/Users/peggylee/Desktop/A4. Comm Design/Coding/MoonValleyResort_peg_chel_bran/images/3.rooms/presidential.jpg");
+	background-size: cover;
+	background-position: center center;
+}
+.chalet_single_image{
+	background: url("/Users/peggylee/Desktop/A4. Comm Design/Coding/MoonValleyResort_peg_chel_bran/images/3.rooms/chalet_single.jpg");
+	background-size: cover;
+	background-position: center center;
+}
+.chalet_double_image{
+	background: url("/Users/peggylee/Desktop/A4. Comm Design/Coding/MoonValleyResort_peg_chel_bran/images/3.rooms/chalet_double.jpg");
+	background-size: cover;
+	background-position: center center;
+}
+.chalet_quad_image{
+	background: url("/Users/peggylee/Desktop/A4. Comm Design/Coding/MoonValleyResort_peg_chel_bran/images/3.rooms/chalet_quad.jpg");
+	background-size: cover;
+	background-position: center center;
+}
+.resort_map_image{
+	background: url("/Users/peggylee/Desktop/A4. Comm Design/Coding/MoonValleyResort_peg_chel_bran/images/2.resort_map/map.png");
+	background-size: cover;
+	background-position: center center;
+}
+
+/* Info */
+.textbox {
+    color: black;
+    background-color: rgba(255,255,255,0.85);
+    width: 94%; 
+    text-align: justify;
+    position: static;
+    margin-top: 25px;
+    padding-top: 1.5%;
+    padding-left: 1.5%;
+    margin-left: 1.5%;
+    border-left: 10px solid black;
+    padding-bottom: 1.5%;
+    padding-right: 3%;
+}
+.textbox h1 {
+    font-family: 'Roboto', sans-serif;
+}
+.textbox p {
+    font-family: 'Libre Franklin', sans-serif;
+    margin-top: 0.5%;
+    font-size: 16px;
+}
+.textbox ul {
+    font-family: 'Libre Franklin', sans-serif;
+    margin-top: 0.5%;
+    font-size: 16px;
+    margin-left: 20px;
+}
+.textbox a {
+    font-style: italic;
+}
+.big_map img {
+    width: 97%;
+    height: auto;
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+}
