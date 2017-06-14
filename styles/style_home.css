@@ -152,22 +152,22 @@ footer {
     font-family: 'Roboto', sans-serif;
 }
 .fig1{
-	background: url("/Users/peggylee/Desktop/A4. Comm Design/Coding/MoonValleyResort_peg_chel_bran/images/1.home/2.slideshow/hotspring.jpg");
+	background: url("../images/1.home/2.slideshow/hotspring.jpg");
 	background-size: cover;
 	background-position: center center;
 }
 .fig2{
-	background: url("/Users/peggylee/Desktop/A4. Comm Design/Coding/MoonValleyResort_peg_chel_bran/images/1.home/2.slideshow/bbq.jpg");
+	background: url("../images/1.home/2.slideshow/bbq.jpg");
 	background-size: cover;
 	background-position: center center;
 }
 .fig3{
-	background: url("/Users/peggylee/Desktop/A4. Comm Design/Coding/MoonValleyResort_peg_chel_bran/images/1.home/2.slideshow/service.jpg");
+	background: url("../images/1.home/2.slideshow/service.jpg");
 	background-size: cover;
 	background-position: center center;
 }
 .fig4{
-	background: url("/Users/peggylee/Desktop/A4. Comm Design/Coding/MoonValleyResort_peg_chel_bran/images/1.home/2.slideshow/campfire.jpg");
+	background: url("../images/1.home/2.slideshow/campfire.jpg");
 	background-size: cover;
 	background-position: center center;
 }
