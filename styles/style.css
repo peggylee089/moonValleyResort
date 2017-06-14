@@ -138,67 +138,67 @@ footer {
     font-family: 'Roboto', sans-serif;
 }
 .classical_single_image{
-	background: url("/Users/peggylee/Desktop/A4. Comm Design/Coding/MoonValleyResort_peg_chel_bran/images/3.rooms/classical_single.jpg");
+	background: url("../images/3.rooms/classical_single.jpg");
 	background-size: cover;
 	background-position: center center;
 }
 .classical_double_image{
-	background: url("/Users/peggylee/Desktop/A4. Comm Design/Coding/MoonValleyResort_peg_chel_bran/images/3.rooms/classical_double.jpg");
+	background: url("../images/3.rooms/classical_double.jpg");
 	background-size: cover;
 	background-position: center center;
 }
 .classical_quad_image{
-	background: url("/Users/peggylee/Desktop/A4. Comm Design/Coding/MoonValleyResort_peg_chel_bran/images/3.rooms/classical_quad.jpg");
+	background: url("../images/3.rooms/classical_quad.jpg");
 	background-size: cover;
 	background-position: center center;
 }
 .presidential_image{
-	background: url("/Users/peggylee/Desktop/A4. Comm Design/Coding/MoonValleyResort_peg_chel_bran/images/3.rooms/presidential.jpg");
+	background: url("../images/3.rooms/presidential.jpg");
 	background-size: cover;
 	background-position: center center;
 }
 .chalet_single_image{
-	background: url("/Users/peggylee/Desktop/A4. Comm Design/Coding/MoonValleyResort_peg_chel_bran/images/3.rooms/chalet_single.jpg");
+	background: url("../images/3.rooms/chalet_single.jpg");
 	background-size: cover;
 	background-position: center center;
 }
 .chalet_double_image{
-	background: url("/Users/peggylee/Desktop/A4. Comm Design/Coding/MoonValleyResort_peg_chel_bran/images/3.rooms/chalet_double.jpg");
+	background: url("../images/3.rooms/chalet_double.jpg");
 	background-size: cover;
 	background-position: center center;
 }
 .chalet_quad_image{
-	background: url("/Users/peggylee/Desktop/A4. Comm Design/Coding/MoonValleyResort_peg_chel_bran/images/3.rooms/chalet_quad.jpg");
+	background: url("../images/3.rooms/chalet_quad.jpg");
 	background-size: cover;
 	background-position: center center;
 }
 .hotspring_image{
-	background: url("/Users/peggylee/Desktop/A4. Comm Design/Coding/MoonValleyResort_peg_chel_bran/images/4.facilities/hotspring.jpg");
+	background: url("../images/4.facilities/hotspring.jpg");
 	background-size: cover;
 	background-position: center center;
 }
 .bbq_area_image{
-	background: url("/Users/peggylee/Desktop/A4. Comm Design/Coding/MoonValleyResort_peg_chel_bran/images/4.facilities/bbq_area.jpg");
+	background: url("../images/4.facilities/bbq_area.jpg");
 	background-size: cover;
 	background-position: center center;
 }
 .buffet_image{
-	background: url("/Users/peggylee/Desktop/A4. Comm Design/Coding/MoonValleyResort_peg_chel_bran/images/4.facilities/buffet.jpg");
+	background: url("../images/4.facilities/buffet.jpg");
 	background-size: cover;
 	background-position: center center;
 }
 .slideshow_image{
-	background: url("/Users/peggylee/Desktop/A4. Comm Design/Coding/MoonValleyResort_peg_chel_bran/images/5.events/slideshow.jpg");
+	background: url("../images/5.events/slideshow.jpg");
 	background-size: cover;
 	background-position: center center;
 }
 .nearby_slideshow_image{
-	background: url("/Users/peggylee/Desktop/A4. Comm Design/Coding/MoonValleyResort_peg_chel_bran/images/6.nearby/slideshow.jpg");
+	background: url("../images/6.nearby/slideshow.jpg");
 	background-size: cover;
 	background-position: center center;
 }
 .reservenow_slideshow_image{
-	background: url("/Users/peggylee/Desktop/A4. Comm Design/Coding/MoonValleyResort_peg_chel_bran/images/7.reservation/slideshow.jpg");
+	background: url("../images/7.reservation/slideshow.jpg");
 	background-size: cover;
 	background-position: center center;
 }
